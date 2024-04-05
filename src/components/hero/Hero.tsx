@@ -83,7 +83,7 @@ const Hero = () => {
             control, confidence, and long lasting performance.
           </p>
           <button
-            onClick={() => lenis?.scrollTo(window.innerHeight * 4)}
+            onClick={() => lenis?.scrollTo("#products")}
             className="btn-explore font-roboto font-bold text-main-white bg-main-red text-2xl w-full py-3 mt-3 hover:bg-main-white hover:text-main-red transition-colors duration-300"
           >
             Explore
