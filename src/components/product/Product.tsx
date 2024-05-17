@@ -12,7 +12,7 @@ const Product = ({
   return (
     <div className="product-container min-w-full h-lvh max-xl:h-auto max-xl:mt-10 flex justify-center bg-cover bg-bottom items-center">
       <div className="wrapper w-[90%] flex justify-evenly items-center">
-        <div className="product-number text-[250px] font-wallpoet font-black text-main-white self-end leading-[150px] opacity-70 max-xl:hidden">
+        <div className="product-number text-[250px] font-wallpoet font-black text-main-white self-end leading-[150px] opacity-70 max-2xl:text-[150px] max-xl:hidden">
           <h1>{prodNumber}</h1>
         </div>
         <div

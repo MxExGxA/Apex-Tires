@@ -30,7 +30,7 @@ const Contact = () => {
   return (
     <div
       ref={container}
-      className="contact-container relative h-lvh max-xl:h-auto w-full flex flex-col items-center bg-main-white max-xl:overflow-visible"
+      className="contact-container relative h-lvh max-xl:h-auto w-full bg-main-white max-xl:overflow-visible"
       id="contact"
     >
       <div className="contact-title h-lvh max-xl:hidden w-full text-[120px] font-roboto font-bold text-main-dark flex justify-center items-center">
@@ -39,11 +39,11 @@ const Contact = () => {
 
       <div
         ref={info}
-        className="contact-info pb-10 absolute w-full h-lvh flex max-xl:flex-col max-xl:h-auto bg-white z-40 max-xl:!top-0 max-xl:bg-main-white"
+        className="contact-info pb-10 absolute w-full h-lvh flex items-center max-xl:flex-col max-xl:h-auto bg-white z-40 max-xl:!top-0 max-xl:bg-main-white"
         style={{ top: "100vh" }}
       >
-        <div className="contact-form w-1/2 max-xl:w-full flex flex-col justify-center items-center p-10 border-r-2 z-50 max-xl:border-none">
-          <div className="form-title text-main-dark font-roboto font-black text-[80px] max-lg:text-6xl max-md:text-4xl w-3/4 max-sm:w-full leading-[80px] mb-5">
+        <div className="contact-form  w-1/2 max-xl:w-full flex flex-col justify-center items-center  border-r-2 z-50 max-xl:border-none pt-5">
+          <div className="form-title text-main-dark font-roboto font-black text-[60px] max-2xl:text-4xl max-xl:text-6xl max-md:text-4xl w-3/4 max-sm:w-full leading-[80px] mb-5">
             <h1>
               We Wanna Hear <br className="max-md:hidden" />{" "}
               <span className="text-main-red">From You.</span>
@@ -67,8 +67,8 @@ const Contact = () => {
             />
           </form>
         </div>
-        <div className="contact-map w-1/2 max-xl:w-full h-lvh max-xl:h-auto  flex flex-col justify-center items-center p-10">
-          <div className="map-title text-main-dark font-roboto font-black text-[80px] max-md:text-4xl w-3/4 max-sm:w-full leading-[80px] mb-5">
+        <div className="contact-map w-1/2 max-xl:w-full h-lvh max-xl:h-auto  flex flex-col justify-center items-center pt-5">
+          <div className="map-title text-main-dark font-roboto font-black text-[60px] max-2xl:text-4xl max-xl:text-6xl max-md:text-4xl w-3/4 max-sm:w-full leading-[80px] mb-5">
             <h1>
               Come And Visit <br className="max-md:hidden" />
               <span className="text-main-red">Our Store.</span>
@@ -81,7 +81,7 @@ const Contact = () => {
           OR
         </h2>
 
-        <p className="copyright absolute bottom-0 left-1/2 -translate-x-1/2 z-50 text-md font-roboto text-main-dark p-5 bg-white max-xl:bg-transparent w-full text-center">
+        <p className="copyright absolute bottom-10 left-1/2 -translate-x-1/2 z-50 text-md font-roboto text-main-dark bg-white max-xl:bg-transparent w-full text-center">
           Copyright © 2024 APEX | Crafted by Elsayed Elghazy
         </p>
       </div>
