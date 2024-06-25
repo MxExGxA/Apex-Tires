@@ -97,8 +97,8 @@ const Navbar = () => {
 
   return (
     <div className="nav-container fixed z-50 top-0 left-0 w-full flex justify-center p-3">
-      <div className="wrapper relative w-[90%] flex justify-between items-center">
-        <div className="logo font-roboto font-black text-3xl text-main-red">
+      <div className="wrapper relative w-[90%] flex justify-between items-center px-7 py-3 rounded-xl bg-white bg-opacity-50 backdrop-blur-md shadow-sm">
+        <div className="logo font-roboto font-black text-3xl text-main-red drop-shadow-sm">
           APEX
         </div>
         <ul className="menu font-roboto font-bold flex items-center *:ml-10 *:cursor-pointer hover:*:text-main-red *:transition-colors *:duration-300 *:text-main-dark max-xl:hidden">
@@ -110,7 +110,7 @@ const Navbar = () => {
           onClick={handleToggleMenu}
           variants={menuButton}
           animate={toggleMenu ? "open" : ""}
-          className="small-menu-button absolute right-0 top-0 hidden max-xl:block w-12 h-12 z-50 rounded-full bg-main-red cursor-pointer hover:scale-110 transition-transform duration-300"
+          className="small-menu-button relative hidden max-xl:block w-12 h-12 z-50 rounded-full bg-main-red cursor-pointer hover:scale-110 transition-transform duration-300"
         >
           <div className="burger-shape h-12 *:w-8 *:h-1 *:bg-main-white flex flex-col justify-center items-center *:my-[2.5px] *:rounded-sm">
             <motion.div
